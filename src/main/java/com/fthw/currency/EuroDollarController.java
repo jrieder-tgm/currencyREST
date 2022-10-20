@@ -8,6 +8,6 @@ public class EuroDollarController {
 
     @GetMapping("/eurodollar")
     public double exchange(double euro) {
-        return euro * 0.78;
+        return euro * 0.98;
     }
 }
